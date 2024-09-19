@@ -100,6 +100,12 @@ section .container {
     .produtos {
         grid-template-columns: repeat(2, 1fr); 
     }
+
+    .imagem-loja img {
+        max-width: 100%;
+        margin-top: 16px;
+    }
+    
 }
 
 @media screen and (max-width: 600px) {
